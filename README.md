@@ -5,19 +5,15 @@
 ### 1.1 概述
     mala开发框架（简称 Mala）是一个 基于springBoot 的自定义starter，封装了业务配置和一些常见的util方法，为简化开发、提高效率而生。
 ### 1.2 框架结构
-    特点
-    1. 封装常见的工具类
-    2. 封装权限配置
-    3. 简化Maven配置
-    4. 自动配置WEB项目中常用配置，例如跨域请求等
-    5. 提供代码生成功能
+![](https://s1.ax1x.com/2020/11/04/BcCnV1.md.png)
 
 ## 第2章 快速开始
     我们将通过一个简单的 Demo 来阐述 mala 的强大功能，在此之前，我们假设您已经:
     1. 拥有 Java 开发环境(1.8)以及相应 IDE
     2. 熟悉 Spring Boot
     3. 熟悉 Maven
-    4. 现有一张 Demo 表，其表结构如下：
+现有一张 Demo 表，其表结构如下：
+![](https://s1.ax1x.com/2020/11/04/BcCVKJ.png)
 
 ### 2.1 初始化工程
      创建一个空的 Maven或者Spring Boot(推荐)工程（工程将以 oracle 作为默认数据库进行演示）
@@ -246,9 +242,10 @@ public class IDemoServiceTest {
     }
 }
 ```
+控制台输出：  
 
-控制台输出：
-
+![BcCZr9.png](https://s1.ax1x.com/2020/11/04/BcCZr9.png)
+![BcCebR.md.png](https://s1.ax1x.com/2020/11/04/BcCebR.md.png)
 ### 2.6 注意事项及问题
 +	basePackage的命名规范必须为com.mammut
 +	springboot的启动类必须放在com.mammut目录下
