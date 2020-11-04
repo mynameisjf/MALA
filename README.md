@@ -3,16 +3,20 @@
 
 ## 第1章 MALA介绍
 ### 1.1 概述
-    mala开发框架（简称 Mala）是一个 基于springBoot 的自定义starter，封装了业务配置和一些常见的util方法，为简化开发、提高效率而生。
-### 1.2 框架结构
-![](https://s1.ax1x.com/2020/11/04/BcCnV1.md.png)
-
+	mala开发框架（简称 Mala）是一个 基于springBoot 的自定义starter，封装了业务配置和一些常见的util方法，为简化开发、提高效率而生。
++ 封装常见的工具类
++ 封装权限配置
++ 简化Maven配置
++ 自动配置WEB项目中常用配置，例如跨域请求等
++ 提供代码生成功能
+### 1.2 框架结构	
+![](https://s1.ax1x.com/2020/11/04/BcCnV1.md.png)	
 ## 第2章 快速开始
     我们将通过一个简单的 Demo 来阐述 mala 的强大功能，在此之前，我们假设您已经:
     1. 拥有 Java 开发环境(1.8)以及相应 IDE
     2. 熟悉 Spring Boot
     3. 熟悉 Maven
-现有一张 Demo 表，其表结构如下：
+现有一张 Demo 表，其表结构如下：  
 ![](https://s1.ax1x.com/2020/11/04/BcCVKJ.png)
 
 ### 2.1 初始化工程
